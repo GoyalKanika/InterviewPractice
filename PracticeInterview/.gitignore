@@ -1,0 +1,12 @@
+# Ignore bin and obj directories
+bin/
+obj/
+.vs/
+
+# Ignore other common files and directories
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
