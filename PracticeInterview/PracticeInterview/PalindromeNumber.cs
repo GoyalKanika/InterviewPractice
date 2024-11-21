@@ -1,14 +1,14 @@
 ﻿using System;
 
 public class PalindromeNumber
-    
+
 {
-    /*
+
     // Palindrome string checker
 
     public static bool IsStringPalindrom(string str)
     {
-       string cleanedString = string.Concat(str.Where(c => Char.IsLetterOrDigit(c))).ToLower();
+        string cleanedString = string.Concat(str.Where(c => Char.IsLetterOrDigit(c))).ToLower();
         //.Where(c => Char.IsLetterOrDigit(c)) is LINQ query which is basically filtering out 
         // all the non-alphanumeric charsuch as space or punctuation or full stop and is skipping
         // them to make it palindrom check ready
@@ -25,6 +25,7 @@ public class PalindromeNumber
 
         return reverseString == cleanedString;
     }
+    /*
     // Palindrome number checker
     public static void Main(string[] args)
     {
