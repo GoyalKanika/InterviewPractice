@@ -41,16 +41,34 @@ namespace PracticeInterview
                 return string.Join(" ", words);
             }
         }
-      /*  public static void Main(string[] args) 
-            {
+        public static string reverseWordsInSequence(string input)
+        {
+            
+                string[] words = input.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                // Kanika is learning. // 4
+                int start = 0, end = words.Length - 1; //3;
+                string temp = string.Empty;
+
+                while (start < end) 
+                {
+                    temp = words[start];
+                    words[start] = words[end];
+                    words[end] = temp;
+                    start++;
+                    end--;
+                }
+                return string.Join(" ", words);
+            
+        }
+        /*public static void Main(string[] args)
+        {
             string input = "Today is Sunday and tomorrow onwards schools starts";
-            string swapped = swapStrings(input);
+            string swapped = reverseWordsInSequence(input);
             Console.WriteLine("Swapped Words: " + swapped);
 
             // Reverse the sentence (handle punctuation)
-            Console.WriteLine("Reversed Sentence: " + reverseString(input));
+            //Console.WriteLine("Reversed Sentence: " + reverseString(input));
 
-        }
-      */
+        }*/
     }
 }

@@ -8,18 +8,18 @@ namespace PracticeInterview
 {
     public class ReverseInput
     {
-        /*
+       
 
         //user input = str | 1243
         // prgm output = rts | 3421
 
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             Console.WriteLine("Enter a word or number");
             int input = int.Parse(Console.ReadLine()); //1243
 
-            int number, reverse = 0, tempnum = 0;
-
+            int number, reverse = 0;
+            
             while (input != 0)
             {
                 number = input %10; // 3 // 4 // 2 // 1

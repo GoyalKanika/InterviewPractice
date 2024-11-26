@@ -20,7 +20,7 @@ namespace PracticeInterview
             return true; // Otherwise, it's prime
         }
 
-        public static void Main(string[] args)
+       /* public static void Main(string[] args)
         {
             int count = 0;
             int number = 2;
@@ -37,5 +37,6 @@ namespace PracticeInterview
             }
             Console.WriteLine(); // Newline after printing all primes
         }
+       */
     }
 }

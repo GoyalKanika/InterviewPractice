@@ -9,8 +9,8 @@ namespace PracticeInterview
 {
     public class ReverseString
     {
-        /*
-        public static void Main(String[] args)
+        
+        /*public static void Main(String[] args)
         {
             Console.WriteLine("Enter your string : ");
             string input = Console.ReadLine();
@@ -24,20 +24,23 @@ namespace PracticeInterview
           
             Console.WriteLine("Enter input: ");
             string str = Console.ReadLine();
-            string reverseString = "";
+            string reverseString = string.Empty;
 
             for (int i = str.Length - 1; i >= 0; i--) // str = Kanika
-                // i = 5
+                                                      // i = 5
             {
                 reverseString += str[i]; // += is actually concatenation. Not recommended. Use String
                                          //String Builder is better and more efficient.
-                // StringBuilder reverseString = new StringBuilder();
-               // for (int i = str.Length - 1; i >= 0; i--)
-               // {
-               //     reverseString.Append(str[i]);  // Efficient way to append characters
-               // }
+                                         // StringBuilder reverseString = new StringBuilder();
+                                         // for (int i = str.Length - 1; i >= 0; i--)
+                                         // {
+                                         //     reverseString.Append(str[i]);  // Efficient way to append characters
+                                         // }
             }
             Console.WriteLine(reverseString);
+          
+
+
         }
         */
 
